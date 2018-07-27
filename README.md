@@ -2,7 +2,11 @@
 
 ## Elección del tema
 
-Para la elección del tema estuvimos pensando ...
+Dentro de la lista de posibles temas pensamos en usuarixs que se interesaran por ellos, inevstigamos en redes
+sociales y encontramos que gran número de ellos se interesaban o mostraban interés por su salud y alimentación. 
+Y habian comunidades activas en redes dispuestas a compartir e investigar más de este tema.
+
+## Encuentas
 
 ## Cómo fue el proceso de diseño
 
@@ -17,11 +21,11 @@ Mientras pensabamos la estructura de la página recordamos nuestras propias expe
 
 Así surgieron estos primeros sketch:
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg" alt="Registro e iniciar sesión" width="294" height="539">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg" alt="Registro e iniciar sesión" width="334" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg" alt="Muro" width="294" height="539">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg" alt="Muro" width="334" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Perfil.jpeg" alt="Perfil" width="294" height="539">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Perfil.jpeg" alt="Perfil" width="334" height="539">
 
 Pasamos los sketchs de versión movil a como se verían en el navegador.
 
@@ -52,13 +56,13 @@ Empezamos dibujando la versión movil y luego pasandola a la vista de navegador.
 
 #### Movil
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg" alt="Iniciar sesión" width="294" height="539">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg" alt="Iniciar sesión" width="334" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg" alt="Registro" width="294" height="539">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg" alt="Registro" width="334" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg" alt="Muro" width="294" height="539">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg" alt="Muro" width="334" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg" alt="Menú desplegado" width="294" height="539">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg" alt="Menú desplegado" width="334" height="539">
 
 #### Navegador
 
