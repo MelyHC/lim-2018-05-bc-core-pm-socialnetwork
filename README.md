@@ -17,18 +17,17 @@ Mientras pensabamos la estructura de la página recordamos nuestras propias expe
 
 Así surgieron estos primeros sketch:
 
-![Inicio](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg)
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg" width="100" height="50">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg" alt="Registro e iniciar sesión"  width="577" height="316">
 
-![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg" alt="Muro" width="577" height="316">
 
-![Perfil](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Perfil.jpeg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Perfil.jpeg" alt="Perfil" width="577" height="316">
 
 Pasamos los sketchs de versión movil a como se verían en el navegador.
 
-![Registro](/imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165616.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165616.jpg" alt="Registro" width="483" height="769">
 
-![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165634.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165634.jpg" alt="Muro" width="483" height="769">
 
 Pasamos estos bocetos a prototipos de alta fidelidad, pero sin testearlos a posibles usuarixs.
 
@@ -53,21 +52,21 @@ Empezamos dibujando la versión movil y luego pasandola a la vista de navegador.
 
 #### Movil
 
-![Iniciar Sesión](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg" alt="Iniciar sesión" width="577" height="316">
 
-![Registro](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg" alt="Registro" width="577" height="316">
 
-![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg" alt="Muro" width="577" height="316">
 
-![Menu desplegado](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg" alt="Menú desplegado" width="577" height="316">
 
 #### Navegador
 
-![Iniciar sesión](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165701.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165701.jpg" alt="Iniciar sesión" width="483" height="769">
 
-![Registro](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165728.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165728.jpg" alt="Registro" width="483" height="769">
 
-![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165753.jpg)
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165753.jpg" alt="Muro" width="483" height="769">
 
 Ya seguras que la nueva interfaz era amigable para el usuario pasamos los sketch a prototipos de alta fidelidad.
 Primero la vista de movil y luego para nevegador.
