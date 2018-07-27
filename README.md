@@ -17,17 +17,17 @@ Mientras pensabamos la estructura de la página recordamos nuestras propias expe
 
 Así surgieron estos primeros sketch:
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg" alt="Registro e iniciar sesión"  width="577" height="316">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg" alt="Registro e iniciar sesión" width="294" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg" alt="Muro" width="577" height="316">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg" alt="Muro" width="294" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Perfil.jpeg" alt="Perfil" width="577" height="316">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Perfil.jpeg" alt="Perfil" width="294" height="539">
 
 Pasamos los sketchs de versión movil a como se verían en el navegador.
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165616.jpg" alt="Registro" width="483" height="769">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165616.jpg" alt="Registro" width="769" height="483">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165634.jpg" alt="Muro" width="483" height="769">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165634.jpg" alt="Muro" width="769" height="483">
 
 Pasamos estos bocetos a prototipos de alta fidelidad, pero sin testearlos a posibles usuarixs.
 
@@ -52,21 +52,21 @@ Empezamos dibujando la versión movil y luego pasandola a la vista de navegador.
 
 #### Movil
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg" alt="Iniciar sesión" width="577" height="316">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg" alt="Iniciar sesión" width="294" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg" alt="Registro" width="577" height="316">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg" alt="Registro" width="294" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg" alt="Muro" width="577" height="316">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg" alt="Muro" width="294" height="539">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg" alt="Menú desplegado" width="577" height="316">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg" alt="Menú desplegado" width="294" height="539">
 
 #### Navegador
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165701.jpg" alt="Iniciar sesión" width="483" height="769">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165701.jpg" alt="Iniciar sesión" width="769" height="483">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165728.jpg" alt="Registro" width="483" height="769">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165728.jpg" alt="Registro" width="769" height="483">
 
-<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165753.jpg" alt="Muro" width="483" height="769">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165753.jpg" alt="Muro" width="769" height="483">
 
 Ya seguras que la nueva interfaz era amigable para el usuario pasamos los sketch a prototipos de alta fidelidad.
 Primero la vista de movil y luego para nevegador.
