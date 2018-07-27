@@ -17,7 +17,7 @@ Mientras pensabamos la estructura de la página recordamos nuestras propias expe
 
 Así surgieron estos primeros sketch:
 
-![Inicio](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg =100x50)
+![Inicio](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg)
 
 ![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg)
 
@@ -25,23 +25,23 @@ Así surgieron estos primeros sketch:
 
 Pasamos los sketchs de versión movil a como se verían en el navegador.
 
-![Registro](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20baja%20fidelidad%20navegador%20primer%20dise%C3%B1o/IMG_20180720_165616.jpg)
+![Registro](/imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165616.jpg)
 
-![Muro](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20baja%20fidelidad%20navegador%20primer%20dise%C3%B1o/IMG_20180720_165634.jpg)
+![Muro](C:/Users/MelyHC/Documents/Lab/lim-2018-05-bc-core-pm-socialnetwork/imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165634.jpg)
 
 Pasamos estos bocetos a prototipos de alta fidelidad, pero sin testearlos a posibles usuarixs.
 
 #### Movil
 
-![Gif1](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20alta%20fidelidad%20celular.gif)
+![Gif1](/imagenes-readme/prototipo-de-alta-fidelidad-celular.gif)
 
-![Gif2](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20alta%20fidelidad%20celular2%20cambio%20de%20color%20en%20inicio%20de%20secion.gif)
+![Gif2](/imagenes-readme/prototipo-de-alta-fidelidad-celular2-cambio-de-color-en-inicio-de-sesion.gif)
 
-![Gif3](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20alta%20fidelidad%20celular%20modificado%20en%20grupo.gif)
+![Gif3](/imagenes-readme/prototipo-de-alta-fidelidad-celular-modificado-en-grupo.gif)
 
 #### Navegador
 
-![GifNav](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20alta%20fidelidad%20navegador.gif)
+![GifNav](/imagenes-readme/prototipo-de-alta-fidelidad-navegador.gif)
 
 Después de nuestro arduo trabajo realizando el prototipado recibimos feedback de nuestro Jedi(Gonzalo), de compañeras y 
 de usuarixs y casi todxs coincidian con que nuestra estructura no era tan clara como pensabamos, los colores estaban un 
@@ -52,29 +52,29 @@ Empezamos dibujando la versión movil y luego pasandola a la vista de navegador.
 
 #### Movil
 
-![Iniciar Sesión](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/Prototipo%20de%20baja%20fidelidad%20%20dise%C3%B1o%20final%20movil/IMG_20180720_165807.jpg)
+![Iniciar Sesión](/imagenes-readme/prototipo-de baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg)
 
-![Registro](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/Prototipo%20de%20baja%20fidelidad%20%20dise%C3%B1o%20final%20movil/IMG_20180720_180751.jpg)
+![Registro](/imagenes-readme/prototipo-de baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg)
 
-![Muro](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/Prototipo%20de%20baja%20fidelidad%20%20dise%C3%B1o%20final%20movil/IMG_20180720_165824.jpg)
+![Muro](/imagenes-readme/prototipo-de baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg)
 
-![Menu desplegado](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/Prototipo%20de%20baja%20fidelidad%20%20dise%C3%B1o%20final%20movil/IMG_20180720_165830.jpg)
+![Menu desplegado](/imagenes-readme/prototipo-de baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg)
 
 #### Navegador
 
-![Iniciar sesión](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/Prototipo%20de%20baja%20fidelidad%20dise%C3%B1o%20final%20navegador/IMG_20180720_165701.jpg)
+![Iniciar sesión](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165701.jpg)
 
-![Registro](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/Prototipo%20de%20baja%20fidelidad%20dise%C3%B1o%20final%20navegador/IMG_20180720_165728.jpg)
+![Registro](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165728.jpg)
 
-![Muro](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/Prototipo%20de%20baja%20fidelidad%20dise%C3%B1o%20final%20navegador/IMG_20180720_165753.jpg)
+![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-navegador/IMG_20180720_165753.jpg)
 
 Ya seguras que la nueva interfaz era amigable para el usuario pasamos los sketch a prototipos de alta fidelidad.
 Primero la vista de movil y luego para nevegador.
 
 #### Movil
 
-![Gif movil](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20alta%20fidelidad%20celular/Gif%20prototipo%20de%20movil.gif)
+![Gif movil](/imagenes-readme/prototipo-de-alta-fidelidad-celular/Gif-prototipo-de-movil.gif)
 
 #### Navegador
 
-![Gif navegador](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20alta%20fidelidad%20navegador/Gif%20prototipo%20de%20navegador.gif)
+![Gif navegador](/imagenes-readme/prototipo-alta-fidelidad-navegador/Gif-prototipo-de-navegador.gif)
