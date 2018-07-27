@@ -18,7 +18,7 @@ Mientras pensabamos la estructura de la página recordamos nuestras propias expe
 Así surgieron estos primeros sketch:
 
 ![Inicio](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg)
-<img src="/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jp" width="100" height="50">
+<img src="./imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jp" width="100" height="50">
 
 ![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg)
 
