@@ -13,15 +13,15 @@ Al analizar el diseño de varias redes sociales muy visitadas diariamente comenz
 atención de lxs usuarxs para terminar el formulario de registro, dos ya logueadxs que era lo que más les llamaba la 
 atención del muro o la página de inicio y tres como preferian su interacción con otrxs usuarixs ("likes, chats, etc.").
 
-Mientras pensabamos la estructura de la página recordamos nuestras propias experiencias como usuarias y el porque habiamos preferido unas páginas a atras.
+Mientras pensabamos la estructura de la página recordamos nuestras propias experiencias como usuarias y el porque habiamos preferido unas páginas a otras.
 
 Así surgieron estos primeros sketch:
 
-![Inicio](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20baja%20fidelidad%20celular%20primer%20dise%C3%B1o/IMG_20180720_165524.jpg)
+![Inicio](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg =100x50)
 
-![Muro](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20baja%20fidelidad%20celular%20primer%20dise%C3%B1o/Publicaciones.jpeg)
+![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg)
 
-![Perfil](https://github.com/MelyHC/lim-2018-05-bc-core-pm-socialnetwork/blob/prueba/imagenes%20readme/prototipo%20de%20baja%20fidelidad%20celular%20primer%20dise%C3%B1o/Perfil.jpeg)
+![Perfil](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Perfil.jpeg)
 
 Pasamos los sketchs de versión movil a como se verían en el navegador.
 
