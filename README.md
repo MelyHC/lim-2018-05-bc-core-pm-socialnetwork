@@ -27,7 +27,7 @@ Pasamos los sketchs de versión movil a como se verían en el navegador.
 
 ![Registro](/imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165616.jpg)
 
-![Muro](C:/Users/MelyHC/Documents/Lab/lim-2018-05-bc-core-pm-socialnetwork/imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165634.jpg)
+![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-navegador-primer-diseño/IMG_20180720_165634.jpg)
 
 Pasamos estos bocetos a prototipos de alta fidelidad, pero sin testearlos a posibles usuarixs.
 
@@ -52,13 +52,13 @@ Empezamos dibujando la versión movil y luego pasandola a la vista de navegador.
 
 #### Movil
 
-![Iniciar Sesión](/imagenes-readme/prototipo-de baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg)
+![Iniciar Sesión](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165807.jpg)
 
-![Registro](/imagenes-readme/prototipo-de baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg)
+![Registro](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_180751.jpg)
 
-![Muro](/imagenes-readme/prototipo-de baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg)
+![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165824.jpg)
 
-![Menu desplegado](/imagenes-readme/prototipo-de baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg)
+![Menu desplegado](/imagenes-readme/prototipo-de-baja-fidelidad-diseño-final-movil/IMG_20180720_165830.jpg)
 
 #### Navegador
 
