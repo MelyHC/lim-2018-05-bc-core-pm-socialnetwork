@@ -17,7 +17,7 @@ Mientras pensabamos la estructura de la página recordamos nuestras propias expe
 
 Así surgieron estos primeros sketch:
 
-![Inicio](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg) {:height="100px" width="50px"}
+![Inicio](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/IMG_20180720_165524.jpg){:height="100px" width="50px"}
 
 
 ![Muro](/imagenes-readme/prototipo-de-baja-fidelidad-celular-primer-diseño/Publicaciones.jpeg)
