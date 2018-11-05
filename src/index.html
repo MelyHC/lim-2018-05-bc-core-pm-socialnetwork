@@ -1,100 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Social Network</title>
+    <title>It's Food</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <link rel="stylesheet" href="fonts.css">
+    <!-- <link rel="stylesheet" href="fonts.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
-  <body>
-    <header> 
-      <div class="container">   
-        <h1 class="itsFood">It's Food</h1>
-          <div id="menu" class="hidden">
-            <input type="checkbox" id="menu-profile">
-            <label class="icon-list" for="menu-profile"></label>
-              <div class="profile-user">
-                <p id="user_name"></p>
-                <br>
-                <p id="Only Me">Mis publicaciones</p>
-                <p id="WORLD">Muro</p>
-                <input type="button"  id="Logout" value="salir">
+  <body class="">
+    <header class=""> 
+      <h1 class="p-3 text-white text-center" id="title" >It's Food</h1>
+        <nav id="menu" class="hidden navbar navbar-expand-md navbar-dark">
+             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <span class="itsFood navbar-brand">It's Food</span>
+          <!-- <div id="menu"> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mr-auto">
+                <p class="nav-item m-3 text-white" id="user_name"></p>
+                <a class="nav-item m-2 nav-link active" id="Only Me" href="#myposts">Mis Publicaciones</a>
+                <a class="nav-item m-2 nav-link active" id="WORLD" href="#wall">Muro</a>
               </div>
+              <input type="button" class="btn btn-danger" id="Logout" value="Salir">
+            <!-- </div> -->
           </div>
-      </div> 
+        </nav>
     </header> 
-     
-    <section id="singIn-register">
-      <div  id="singIn">
-        <h2>Iniciar Sesión</h2>
+    <section id="singIn-register" class="container text-center mt-4">
+      <div id="singIn" class="">
+        <h2 class="pt-3">Iniciar Sesión</h2>
         <div id="validation-message"></div>
-
-        <input type="email" id="email" class="space" placeholder="Correo Electrónico">
-        <br>
-        <input type="password" id="password" class="space" placeholder="Contraseña">
-        <input type="checkbox" id="password-show">
-        <br>
-        <div class="botton">
-        <input type="button" id="SignIn" value="Iniciar Sesión">
-        <br>
-        <p class="fontsize-p">Pudes ingresar con</p>
-        <input type="button" id="anonimo" value="Entrar como anonimo">
-        <br>
-        <input type="button" id="google-SignIn" value="G">
-        <!-- <input type="button" id="facebook-SignIn" value="f"> -->
-        <br>
+        <input type="email" id="email" class="form-control form-size bg-grey mt-2 mb-2" placeholder="Correo Electrónico">
+        <div class="input-group">
+          <input type="password" id="password" class="form-control form-size bg-grey mb-2 mt-2" placeholder="Contraseña">
+          <div class="input-group-prepend mb-2 mt-2">
+            <div class="input-group-text">
+              <input type="checkbox" id="password-show">
+            </div>
+          </div>
         </div>
-        <p id="newAccount-register" class="fontsize-p">O Crear una cuenta nueva</p>
+        <input type="button" class="btn btn-success m-2" id="SignIn" value="Iniciar Sesión">
+        <p class="">Pudes ingresar con</p>
+        <div>
+          <button class="btn btn-light rounded-circle mr-2" data-toggle="tooltip" data-placement="bottom" title="Ingresa como anónimo" id="anonimo"><i class="fas fa-user-secret"></i></button>
+          <input type="button" class="btn btn-danger rounded-circle ml-2" id="google-SignIn" value="G">
+        </div>
+        <!-- <input type="button" id="facebook-SignIn" value="f"> -->
+        <p id="newAccount-register" class="fontsize-p btn">O Crear una cuenta nueva</p>
       </div>
       <div id="register" class="hidden">
-        <h2>Registrate</h2>
-        <div id="validation-messageR"></div>
-        <input type="text" id="name-register" class="space" placeholder="Nombre Completo">
-        <br>
-        <input type="text" id="nickName-register" class="space" placeholder="Nombre Usuario">
-        <br>
-        <input type="email" id="email-register" class="space" placeholder="Correo Electrónico">
-        <br>
-        <input type="password" id="password-register" class="space" placeholder="Contraseña">
-        <input type="checkbox" id="password-register-show">
-        <br>
-        <div class="botton">
-        <input type="button" id="register-user" value="Registrarse">
-        <br>
-        <input type="button" id="return" value="Regresar">
+        <div class="d-flex justify-content-center">
+          <button id="return" class="btn btn-success rounded-circle mt-4  mr-2"><i class="fas fa-arrow-left"></i></button> 
+          <h2 class="pt-3 ml-4 mr-5">Registrate</h2>
         </div>
+        <div id="validation-messageR"></div>
+        <input type="text" id="name-register" class="form-control form-size bg-grey mt-2 mb-2" placeholder="Nombre Completo">
+        <input type="text" id="nickName-register" class="form-control form-size bg-grey mt-2 mb-2" placeholder="Nombre Usuario">
+        <input type="email" id="email-register" class="form-control form-size bg-grey mt-2 mb-2" placeholder="Correo Electrónico">
+        <!-- <div class="botton"> -->       
+        <div class="input-group">
+          <input type="password" id="password-register" class="form-control form-size bg-grey mb-2 mt-2" placeholder="Contraseña">
+          <div class="input-group-prepend mb-2 mt-2">
+            <div class="input-group-text">
+              <input type="checkbox" id="password-register-show">
+            </div>
+          </div>
+        </div>
+        <input type="button" class="btn btn-success mt-2 mb-4" id="register-user" value="Registrarse">
       </div>
     </section>
     
-    <section id="wall"  class="hidden">
-      <div id="dataBase">
-        <textarea name="Publicación"  id="post"  cols="30"  rows="10"></textarea>
-        <br>
-        <input type="button" value="Publicar" id="btnSave">       
+    <section id="wall" class="hidden container pt-3">
+      <div id="dataBase" class="bg-light rounded mb-5 mr-2 ml-2">
+        <div class="p-3">
+          <textarea name="Publicación" class="form-control" id="post" cols="" rows=""></textarea>
+          <br>
+          <input type="button" class="btn btn-success" value="Publicar" id="btnSave">       
+        </div>
       </div>
-      <div id="publications">
-        <h3>Publicaciones:</h3>
-        <div id="post-list"></div>
-        <div id="post-list-public" class="hidden"></div>
+      <div id="publications" class="bg-green rounded mr-2 ml-2 mt-3">
+        <h3 class="pr-3 pt-3 pb-3">Publicaciones:</h3>
+        <div id="post-list" class=""></div>
+        <div id="post-list-public" class="hidden "></div>
       </div>
     </section>
 
-    <footer id="imagen">
-     <img src="img/comida1.png" alt="imagen">
-    </footer>
-
-    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
     <script>
       // Initialize Firebase
       const config = {
-        apiKey: "AIzaSyD-77ZyY3Xr4WufiPLXx5qBQBH4Ha6ZBLU",
-        authDomain: "red-social-4956d.firebaseapp.com",
-        databaseURL: "https://red-social-4956d.firebaseio.com",
-        projectId: "red-social-4956d",
-        storageBucket: "red-social-4956d.appspot.com",
-        messagingSenderId: "702674464004"
+        apiKey: "AIzaSyCKopmCLO0gOWx7h4iZpop-OqgeNLdWTfI",
+        authDomain: "social-network-firebase-660f7.firebaseapp.com",
+        databaseURL: "https://social-network-firebase-660f7.firebaseio.com",
+        projectId: "social-network-firebase-660f7",
+        storageBucket: "social-network-firebase-660f7.appspot.com",
+        messagingSenderId: "947739135564"
       };
       firebase.initializeApp(config);
     </script>

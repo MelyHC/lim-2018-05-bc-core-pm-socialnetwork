@@ -1,171 +1,94 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-*{
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
-  background: rgba(201, 200, 200, 0.116);
+  background-image: url('./img/carrots-food-fresh-616401.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .hidden {
   display: none;
 }
 
-.warning { 
-  outline:0px;
-  background-color:rgba(255, 0, 0, 0.5); 
-  border-color: rgba(255, 0, 0);
-  margin:7%;
-  height:20px;
-}
-
-header {
-  width: 100%;
-  height: 100px;
-  background-color:#6FAB32;
-  color:#ffff;
-  position:fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-
-h1 {
-  font-size:300%;
-  float: left;
-  position:absolute;
-  top:12px;
-}
-/* menu desplegable del css*/
-#menu-profile {
-  display: none;
-}
-
-header label {
-  float: right;
-  font-size: 30px;
-  margin:35px 0 ;
-  cursor: pointer;
-}
-
-.profile-user {
-  position: absolute;
-  top:100px;
-  left: 0;
-  width: 320px;
-  height: 100vh;
-  background: #6FAB32;
-  transition: all 0.5s;
-  transform: translateX(-100%)
-}
-
-.profile-user p {
-  display: block;
-  color: #fff;
-  height: 50px;
-  text-decoration: none;
-  padding: 15px;
-}
-
-#menu-profile:checked ~ .profile-user {
-  transform: translateX(0%)
-}
-
-#Logout {
-  display: block;
-  text-decoration: none;
-  margin: 60px 15px;
-  cursor: pointer;
-  padding: 10px;
-  color: #ffffff;
-  background-color: #db0d0d;
-  border-radius: 6px;
-  border: 2px solid #7a0707;
-}
-
-header .container {
-  text-align:center;
-  width:85% ;
-  margin: auto;
-  display: table;
-}
-
-section {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);  
-}
-
-img {
-  position: absolute;
-  bottom: 0;
-  width:100%;
-  z-index: -100;
-}
+/* #singIn-register { */
+  /* background-image: url('./img/carrots-food-fresh-616401.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; */
+  /* align-items: center;
+  justify-content: center;
+  align-self: center; */
+/* } */
 
 #singIn, #register{
-  width: 130%;
-  position:relative;
-  font-size:10px;
-  text-align:center;
-  padding:9px;
-  padding-top:15px;
-  padding-bottom:15px;
-  border-radius: 10px;
-  background-color: rgba(188, 213, 33, 0.50);
+ 
+  margin: auto;
+  border-radius: 10px; 
+  background-color: rgb(255, 255, 255);
 }
 
 h2 {
-  font-size: 250%;
+  /* color: #6FAB32; */
+  font-weight: bold;
 }
 
-.space {
-  margin:7%;
-  height:20px;
+.form-control {
+  display: inline-block;
+  margin: 0 auto;
 }
 
-#password, #password-register{
-  margin-left:6%;
-  margin-right:2%;
+.bg-grey {
+  background-color: #E7EAE5;
 }
 
-span{
-  color: #db0d0d;
+.input-group {
+  /* justify-content: center;
+   */
+  margin: 0 auto 
+}
+
+.form-size, .input-group {
+  width: 260px;
+  position: inherit;
+  /* display: inline-block; */
+}
+
+.navbar-dark {
+  background-color: #6FAB32;
+}
+
+header {
+  height: 70px;
+  background-color:#6FAB32;
+}
+
+.btn-light {
+  background-color: rgb(206, 207, 204);
+  border-color: rgb(206, 207, 204);
+}
+
+#menu-profile {
+  display: none;
 }
 
 #newAccount-register{
   color: blue;
 }
 
-.fontsize-p {
-  font-size: 125%;
+.btn-success {
+  background-color: #6FAB32;
+  border: #6FAB32
 }
 
-.botton input, #wall input {
-  border: none;
-  background: #6FAB32;
-  margin:8px;
-  color: #f2f2f2;
-  padding: 4%;
-  height: 35px;
-  position: relative;
-}
-
-input {
-  border: none;
-  border-radius: 5px;
+.navbar-brand, h1  {
+  font-size: 1.9em;
+  font-weight: bold;
 }
 
 #google-SignIn {
   background-color: red;
-  width: 15%;
-  border-radius: 30px;
 }
 
 /* #facebook-SignIn {
@@ -176,39 +99,30 @@ input {
 
 textarea {
   resize: none;
-}
-
-#wall {
-  height: 350px;     
-}
-
-#publications {
-  border-color: black;
-}
-
-#wall input {
-  margin: 2px;
-  padding: 2%;
-}
-
-#publications span {
-  color: black;
-  font-size: 90%;
-}
-
-#publications textarea {
-  width: 90%;
-  margin: 10px;
-  color: black;
-}
-
-#dataBase {
-  border-color: black;
-  margin: 20px;
-}
-
-.contents-post {
-  margin: 20px;
-  background-color: white;
-  width: 140%; 
 } 
+
+.bg-green {
+  background-color: rgb(121, 187, 54);
+}
+
+@media screen and (min-width: 450px) {
+
+  .form-size, .input-group {
+    width: 300px;
+    position: inherit;
+    /* display: inline-block; */
+  }
+
+  #singIn, #register{
+    width: 370px;
+    /* margin: auto; */
+    /* position:relative;
+    font-size:10px;
+    text-align:center;
+    padding:9px;
+    padding-top:15px;
+    padding-bottom:15px; */
+    /* border-radius: 10px; 
+    background-color: rgb(255, 254, 254); */
+  }
+}
