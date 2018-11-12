@@ -2,11 +2,9 @@
 window.onload = () => {
   firebase.auth().onAuthStateChanged(user => {
     if (user) {
-      console.log(user);
       title.classList.add('hidden');
       wall.classList.remove('hidden')
       if (user.emailVerified === true) {
-        console.log('Inicio Logueado ')
         returnData(user.uid);
         returnDataPublic(user.uid);
         login.classList.remove('hidden');
@@ -15,8 +13,6 @@ window.onload = () => {
         title.classList.add('hidden');
       }
       if (user.isAnonymous === true) {
-        console.log('Inicio Logueado ANONIMO ')
-
         login.classList.remove('hidden');
         logout.classList.add('hidden');
         dataBase.setAttribute('class', 'hidden');
@@ -28,7 +24,6 @@ window.onload = () => {
       }
     }
     else {
-      console.log('No esta logueado');
       login.classList.add('hidden');
       logout.classList.remove('hidden');
       register.setAttribute('class', 'hidden');
@@ -44,8 +39,6 @@ btnRegister.addEventListener('click', () => {
   firebase.auth().createUserWithEmailAndPassword(emailRegister.value, passwordRregister.value)
     .then((result) => {
 
-      console.log('me registro');
-      console.log(nameRegister.value, nickNameRegister.value);
       const user = result.user;
       writeUserData(user.uid, nameRegister.value, nickNameRegister.value, user.email, user.photoURL);
       checkEmail();
@@ -65,9 +58,7 @@ btnRegister.addEventListener('click', () => {
 btnSignIn.addEventListener('click', () => {
   firebase.auth().signInWithEmailAndPassword(email.value, password.value)
     .then(() => {
-      console.log('entre');
-      console.log(passwordRregister.value);
-      console.log(emailRegister.value);
+
       onload();
     })
     .catch((error) => {

@@ -36,7 +36,6 @@ const returnData = (uid) => {
 
     const nameUserId = snap.val().userNickName;
     userName.innerHTML = `Bienvenid@  ${nameUserId}`;
-    console.log(nameUserId);
 
     const postUbication = firebase.database().ref('user-posts').child(uid);
     postUbication.on('child_added', snap => {
@@ -45,7 +44,7 @@ const returnData = (uid) => {
 
       const numLike = snap.val().like;
       const numDisLike = snap.val().dislike;
-      console.log(nameUserId);
+
       showData(uid, key, listPost, numLike, numDisLike, nameUserId);
     });
   })
@@ -54,22 +53,25 @@ const returnData = (uid) => {
 const showData = (userId, keyPost, posts, likePost, dislikePost, nameUserId) => {
 
   const divDelete = document.createElement('div');
-  divDelete.setAttribute('class', 'contents-post');
-  const nickUser = document.createElement('span');
+  divDelete.setAttribute('class', 'p-3 bg-white rounded');
+  const nickUser = document.createElement('h6');
   const tabA = document.createElement('br')
   const tab = document.createElement('br')
   const changePost = document.createElement('textarea');
   changePost.setAttribute('disabled', 'disabled');
+  changePost.setAttribute('class', 'form-control');
   const btnUpdateSave = document.createElement('input');
   btnUpdateSave.setAttribute('value', 'Guardar');
   btnUpdateSave.setAttribute('type', 'button');
-  btnUpdateSave.setAttribute('class', 'hidden');
+  btnUpdateSave.setAttribute('class', 'hidden btn btn-success mr-2');
   const btnUpdate = document.createElement('input');
   btnUpdate.setAttribute('value', 'Editar');
   btnUpdate.setAttribute('type', 'button');
+  btnUpdate.setAttribute('class', 'btn btn-success mr-2');
   const btnDelete = document.createElement('input');
   btnDelete.setAttribute('value', 'Borrar');
   btnDelete.setAttribute('type', 'button');
+  btnDelete.setAttribute('class', 'btn btn-danger mr-2');
   const btnpublic = document.createElement('SELECT');
   const wantSee = document.createElement('option');
   wantSee.setAttribute('value', 'election');
@@ -97,14 +99,14 @@ const showData = (userId, keyPost, posts, likePost, dislikePost, nameUserId) => 
 
   //editar  
   btnUpdate.addEventListener('click', () => {
-    btnUpdate.setAttribute('class', 'hidden');
-    btnUpdateSave.removeAttribute('class');
+    btnUpdate.classList.add('hidden');
+    btnUpdateSave.classList.remove('hidden');
     changePost.removeAttribute('disabled');
   });
 
   btnUpdateSave.addEventListener('click', () => {
-    btnUpdate.removeAttribute('class');
-    btnUpdateSave.setAttribute('class', 'hidden');
+    btnUpdate.classList.remove('hidden');
+    btnUpdateSave.classList.add('hidden');
     changePost.setAttribute('disabled', 'disabled');
     const postData = {
       uid: userId,
@@ -143,7 +145,6 @@ const showData = (userId, keyPost, posts, likePost, dislikePost, nameUserId) => 
   //publicar 
   btnpublic.addEventListener('change', () => {
     if (btnpublic.value === 'world') {
-      console.log('hola');
 
       const postData = {
         uid: userId,
@@ -156,7 +157,6 @@ const showData = (userId, keyPost, posts, likePost, dislikePost, nameUserId) => 
       firebase.database().ref().child(`/user-posts-world/${keyPost}`).update(postData);
     }
     if (btnpublic.value === 'only me') {
-      console.log('hola e');
 
       const opcion = confirm('Deseaes eliminar este post');
       if (opcion == true) {
@@ -170,7 +170,7 @@ const showData = (userId, keyPost, posts, likePost, dislikePost, nameUserId) => 
   })
 
   divDelete.appendChild(nickUser);
-  divDelete.appendChild(tabA);
+  divDelete.appendChild(tab);
   divDelete.appendChild(changePost);
   divDelete.appendChild(tab);
   divDelete.appendChild(btnUpdate);
@@ -195,10 +195,11 @@ const returnDataPublic = (uid) => {
     const postGlobal = snap.val().body;
     const nameUserId = snap.val().name;
     const otherUid = snap.val().uid;
-    console.log(postGlobal);
+
     showWorld(uid, otherUid, keyPost, postGlobal, likeGlobal, dislLikeGlobal, nameUserId);
   });
 }
+
 const showWorld = (userId, otherUid, keyPost, postGlobal, likeGlobal, dislLikeGlobal, nameUserId) => {
 
   const divDelete = document.createElement('div');
@@ -217,9 +218,7 @@ const showWorld = (userId, otherUid, keyPost, postGlobal, likeGlobal, dislLikeGl
 
   nickUser.innerHTML = nameUserId;
 
-  console.log('aaaaaaaaaaa', keyPost, likeGlobal)
   //el valor del like va ir cambiando en ambos lados segun corresponde :
-
 
   firebase.database().ref(`user-posts-world`).child(keyPost).on('value', snap => {
     tell.innerHTML = snap.val().like;

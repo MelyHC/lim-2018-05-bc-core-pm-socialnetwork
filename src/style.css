@@ -44,15 +44,12 @@ h2 {
 }
 
 .input-group {
-  /* justify-content: center;
-   */
   margin: 0 auto 
 }
 
 .form-size, .input-group {
   width: 260px;
   position: inherit;
-  /* display: inline-block; */
 }
 
 .navbar-dark {
@@ -82,13 +79,19 @@ header {
   border: #6FAB32
 }
 
-.navbar-brand, h1  {
+.navbar-brand, h1 {
   font-size: 1.9em;
   font-weight: bold;
 }
 
-#google-SignIn {
+.btn-danger {
   background-color: red;
+  border-color: red;
+}
+
+.btn-danger:hover {
+  background-color: rgb(250, 46, 46);
+  border-color: rgb(230, 29, 29);
 }
 
 /* #facebook-SignIn {

@@ -43,26 +43,25 @@ const posts = document.getElementById('publications');
 
 //ocultando y apareciondo el area de inciar sesion y registro
 btnNewAccount.addEventListener('click', () => {
-  register.removeAttribute('class');
-  singIn.setAttribute('class', 'hidden');
+  register.classList.remove('hidden')
+  singIn.classList.add('hidden')
 })
 
 btnReturn.addEventListener('click', () => {
-  register.setAttribute('class', 'hidden');
-  singIn.removeAttribute('class');
+  register.classList.add('hidden')
+  singIn.classList.remove('hidden')
 })
 
 visualOnlyMe.addEventListener('click', () => {
-  postWorld.setAttribute('class', 'hidden');
-  postL.removeAttribute('class');
-  dataBase.removeAttribute('class');
-  dataBase.setAttribute('class', 'bg-light rounded mb-5')
+  postWorld.classList.add('hidden');
+  postL.classList.remove('hidden');
+  dataBase.classList.remove('hidden');
 })
 
 visualWorld.addEventListener('click', () => {
-  postL.setAttribute('class', 'hidden');
-  postWorld.removeAttribute('class');
-  dataBase.setAttribute('class', 'hidden');
+  postL.classList.add('hidden')
+  postWorld.classList.remove('hidden')
+  dataBase.classList.add('hidden')
 })
 
 //mostrando y ocultando contraseña
@@ -95,23 +94,21 @@ const validationMessageSI = document.getElementById('validation-message');
 email.addEventListener('keyup', () => {
   if (email.value.length <= 1) {
     validationMessageSI.innerHTML = '<span class="text-danger">Completa el cuadro <strong>Email</strong></span>';
-    email.setAttribute('class', 'bg-danger text-white form-control mb-2 mt-2 form-control mb-2 mt-2');
+    email.classList.add('bg-danger');
   } else {
     validationMessageSI.innerHTML = '<span></span>';
-    email.removeAttribute('class', 'bg-danger');
-    email.setAttribute('class', 'form-control mb-2 mt-2')
+    email.classList.remove('bg-danger');
   }
 })
 
 /*2.- input para introduccion de contraseña*/
 password.addEventListener('keyup', () => {
   if (password.value.length <= 1) {
-    validationMessageSI.innerHTML = '<span class="text-danger">Completa el cuadro <strong>Pasword</strong></span>';
-    password.setAttribute('class', 'bg-danger text-white form-control mb-2 mt-2');
+    validationMessageSI.innerHTML = '<span class="text-danger">Completa el cuadro <strong>Contraseña</strong></span>';
+    password.classList.add('bg-danger');
   } else {
     validationMessageSI.innerHTML = '<span></span>';
-    password.removeAttribute('class', 'bg-danger');
-    password.setAttribute('class', 'form-control mb-2 mt-2')
+    password.classList.remove('bg-danger');
   }
 })
 
@@ -126,11 +123,10 @@ nameRegister.addEventListener('mousemove', () => {
 nameRegister.addEventListener('keyup', () => {
   if (nameRegister.value.length <= 0) {
     validationMessage.innerHTML = '<span class="text-danger">Completa el cuadro de registro <br><strong>Nombre Completo</strong></span>';
-    nameRegister.setAttribute('class', 'bg-danger text-white form-control mb-2 mt-2');
+    nameRegister.classList.add('bg-danger');
   } else {
     validationMessage.innerHTML = '<span></span>';
-    nameRegister.removeAttribute('class', 'bg-danger');
-    nameRegister.setAttribute('class', 'form-control mb-2 mt-2')
+    nameRegister.classList.remove('bg-danger');
   }
 })
 
@@ -141,11 +137,10 @@ nickNameRegister.addEventListener('mousemove', () => {
 nickNameRegister.addEventListener('keyup', () => {
   if (nickNameRegister.value.length <= 0) {
     validationMessage.innerHTML = '<span class="text-danger">Completa el cuadro de registro <br><strong>Nombre de Usuario</strong></span>';
-    nickNameRegister.setAttribute('class', 'bg-danger text-white form-control mb-2 mt-2');
+    nickNameRegister.classList.add('bg-danger');
   } else {
     validationMessage.innerHTML = '<span></span>';
-    nickNameRegister.removeAttribute('class', 'bg-danger');
-    nickNameRegister.setAttribute('class', 'form-control mb-2 mt-2')
+    nickNameRegister.classList.remove('bg-danger');
   }
 })
 
@@ -157,11 +152,10 @@ emailRegister.addEventListener('mousemove', () => {
 emailRegister.addEventListener('keyup', () => {
   if (emailRegister.value.length <= 0) {
     validationMessage.innerHTML = '<span class="text-danger">Completa el cuadro de registro<br> <strong>Email</strong></span>';
-    emailRegister.setAttribute('class', 'bg-danger text-white form-control mb-2 mt-2');
+    emailRegister.classList.add('bg-danger');
   } else {
     validationMessage.innerHTML = '<span></span>';
-    emailRegister.removeAttribute('class', 'bg-danger');
-    emailRegister.setAttribute('class', 'form-control mb-2 mt-2');
+    emailRegister.classList.remove('bg-danger');
   }
 })
 
@@ -173,13 +167,12 @@ passwordRregister.addEventListener('mousemove', () => {
 passwordRregister.addEventListener('keyup', () => {
   if (passwordRregister.value.length === 0) {
     validationMessage.innerHTML = '<span class="text-danger">Completa el cuadro de registro <br><strong>Contraseña</strong></span>';
-    passwordRregister.setAttribute('class', 'bg-danger text-white form-control mb-2 mt-2');
+    passwordRregister.classList.add('bg-danger');
   } else if (passwordRregister.value.length <= 5) {
     validationMessage.innerHTML = '<span class="text-danger">Completa <strong>Contraseña</strong><br>  mínimo 6 digitos</span>';
-    passwordRregister.setAttribute('class', 'bg-danger text-white form-control mb-2 mt-2');
+    passwordRregister.classList.add('bg-danger');
   } else {
     validationMessage.innerHTML = '<span></span>';
-    passwordRregister.removeAttribute('class', 'bg-danger');
-    passwordRregister.setAttribute('class', 'form-control mb-2 mt-2')
+    passwordRregister.classList.remove('bg-danger');
   }
 })

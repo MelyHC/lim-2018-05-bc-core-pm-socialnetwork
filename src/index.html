@@ -22,7 +22,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav mr-auto">
-                <p class="nav-item m-3 text-white" id="user_name"></p>
+                <p class="nav-item m-2 pt-2 pb-2 text-white" id="user_name"></p>
                 <a class="nav-item m-2 nav-link active" id="Only Me" href="#myposts">Mis Publicaciones</a>
                 <a class="nav-item m-2 nav-link active" id="WORLD" href="#wall">Muro</a>
               </div>
@@ -76,17 +76,19 @@
     </section>
     
     <section id="wall" class="hidden container pt-3">
-      <div id="dataBase" class="bg-light rounded mb-5 mr-2 ml-2">
-        <div class="p-3">
-          <textarea name="Publicación" class="form-control" id="post" cols="" rows=""></textarea>
-          <br>
-          <input type="button" class="btn btn-success" value="Publicar" id="btnSave">       
+      <div class="mr-md-4 ml-md-4 pr-md-4 pl-md-4">
+        <div id="dataBase" class="bg-light rounded mb-5 mr-2 ml-2">
+          <div class="p-3">
+            <textarea name="Publicación" class="form-control" id="post" cols="" rows="" placeholder=""></textarea>
+            <br>
+            <input type="button" class="btn btn-success" value="Publicar" id="btnSave">       
+          </div>
         </div>
-      </div>
-      <div id="publications" class="bg-green rounded mr-2 ml-2 mt-3">
-        <h3 class="pr-3 pt-3 pb-3">Publicaciones:</h3>
-        <div id="post-list" class=""></div>
-        <div id="post-list-public" class="hidden "></div>
+        <div id="publications" class="bg-green rounded mr-2 ml-2 mt-3">
+          <h3 class="pr-3 pt-3 pb-0 text-white mr-3 ml-3 mb-0">Publicaciones:</h3>
+          <div id="post-list" class="mr-3 ml-3 pt-3 pb-3"></div>
+          <div id="post-list-public" class="hidden mr-3 ml-3 pt-3 pb-3"></div>
+        </div>
       </div>
     </section>
 
