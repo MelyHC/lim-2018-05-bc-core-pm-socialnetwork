@@ -15,10 +15,10 @@ window.onload = () => {
       if (user.isAnonymous === true) {
         login.classList.remove('hidden');
         logout.classList.add('hidden');
-        dataBase.setAttribute('class', 'hidden');
+        dataBase.classList.add('hidden');
         wall.classList.remove('hidden');
-        postL.setAttribute('class', 'hidden');
-        postWorld.removeAttribute('class');
+        postL.classList.add('hidden');
+        postWorld.classList.remove('hidden');
         returnDataPublic(user.uid);
         title.classList.add('hidden');
       }
@@ -26,8 +26,8 @@ window.onload = () => {
     else {
       login.classList.add('hidden');
       logout.classList.remove('hidden');
-      register.setAttribute('class', 'hidden');
-      singIn.removeAttribute('class');
+      register.classList.add('hidden');
+      singIn.classList.remove('hidden');
       wall.classList.add('hidden');
       title.classList.remove('hidden');
     }
@@ -42,8 +42,8 @@ btnRegister.addEventListener('click', () => {
       const user = result.user;
       writeUserData(user.uid, nameRegister.value, nickNameRegister.value, user.email, user.photoURL);
       checkEmail();
-      register.setAttribute('class', 'hidden');
-      singIn.removeAttribute('class');
+      register.classList.add('hidden');
+      singIn.classList.remove('hidden');
       //url  aun no funciona
 
     })
@@ -84,10 +84,9 @@ const checkEmail = () => {
     .then(() => {
       // Email sent.
       alert('se envio un correo de confirmacion a tu email')
-
     })
-    .catch((error) => {
-      console.log('email error');
+    .catch((err) => {
+      console.error('Email error', err);
 
       // An error happened.
     });
@@ -98,16 +97,12 @@ btnGoogle.addEventListener('click', () => {
   const provider = new firebase.auth.GoogleAuthProvider();
   firebase.auth().signInWithPopup(provider)
     .then((result) => {
-      console.log('ingrese con google');
       const user = result.user;
       title.classList.add('hidden');
       writeUserData(user.uid, user.displayName, user.displayName, user.email, user.photoURL);
     })
-    .catch((error) => {
-      console.log(error.code);
-      console.log(error.message);
-      console.log(error.email);
-      console.log(error.credential);
+    .catch((err) => {
+      console.error(`Error code: ${err.code}`, `Error message: ${err.message}`, `Error email: ${err.email}`, `Error message: ${err.credential}`);
     });
 })
 
@@ -130,23 +125,21 @@ btnGoogle.addEventListener('click', () => {
 //enrar como anonimo
 anonymus.addEventListener('click', () => {
   firebase.auth().signInAnonymously()
-    .catch(error => {
-      // Handle Errors here.
-      const errorCode = error.code;
-      const errorMessage = error.message;
-      // ... 
+    .catch(err => {
+      console.error(`Error code: ${err.code}`, `Error message: ${err.message}`)
     })
 
 });
+
 btnSave.addEventListener('click', () => {
 
   if (post.value.length !== 0 && post.value.trim() !== '') {
     const userId = firebase.auth().currentUser.uid;
-    const newPost = writeNewPost(userId, post.value);
+    writeNewPost(userId, post.value);
     post.value = '';
   }
   else {
-    alert('escribe un comentario')
+    alert('Escribe un comentario')
   }
 })
 
@@ -154,15 +147,14 @@ btnSave.addEventListener('click', () => {
 btnLogout.addEventListener('click', () => {
   firebase.auth().signOut()
     .then(() => {
-      console.log('Cerro Sesión');
       login.classList.remove('hidden');
       logout.classList.add('hidden');
-      register.setAttribute('class', 'hidden');
-      singIn.removeAttribute('class');
+      register.classList.add('hidden');
+      singIn.classList.remove('hidden');
       wall.classList.add('hidden');
       title.classList.remove('hidden');
     })
-    .catch((error) => {
-      console.log('Error al cerrar Sesión');
+    .catch((err) => {
+      console.error('Error al cerrar Sesión', `Error: ${err}`);
     });
 })

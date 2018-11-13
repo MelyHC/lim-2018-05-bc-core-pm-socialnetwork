@@ -55,7 +55,7 @@ const showData = (userId, keyPost, posts, likePost, dislikePost, nameUserId) => 
   const divDelete = document.createElement('div');
   divDelete.setAttribute('class', 'p-3 bg-white rounded');
   const nickUser = document.createElement('h6');
-  const tabA = document.createElement('br')
+  nickUser.setAttribute('class', 'mb-3 border-bottom ')
   const tab = document.createElement('br')
   const changePost = document.createElement('textarea');
   changePost.setAttribute('disabled', 'disabled');
@@ -86,7 +86,7 @@ const showData = (userId, keyPost, posts, likePost, dislikePost, nameUserId) => 
   const seeWorld = document.createTextNode('Público');
   onlyWorld.appendChild(seeWorld);
 
-  nickUser.innerHTML = nameUserId;
+  nickUser.innerText = nameUserId;
   let saveNumber = likePost;
   console.log('este es like post', likePost);
 
