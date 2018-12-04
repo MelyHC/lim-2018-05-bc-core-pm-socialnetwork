@@ -22,15 +22,13 @@ window.onload = () => {
         returnDataPublic(user.uid);
         title.classList.add('hidden');
       }
-    }
-    else {
+    } else {
       login.classList.add('hidden');
       logout.classList.remove('hidden');
       register.classList.add('hidden');
       singIn.classList.remove('hidden');
       wall.classList.add('hidden');
       console.log(postL.children.remove())
-      // postWorld.removeChild(postWorld.childNodes[postWorld.length]);
       title.classList.remove('hidden');
     }
   });
@@ -134,13 +132,11 @@ anonymus.addEventListener('click', () => {
 });
 
 btnSave.addEventListener('click', () => {
-
   if (post.value.length !== 0 && post.value.trim() !== '') {
     const userId = firebase.auth().currentUser.uid;
     writeNewPost(userId, post.value);
     post.value = '';
-  }
-  else {
+  } else {
     alert('Escribe un comentario')
   }
 })
@@ -154,7 +150,7 @@ btnLogout.addEventListener('click', () => {
       register.classList.add('hidden');
       singIn.classList.remove('hidden');
       wall.classList.add('hidden');
-     
+
       title.classList.remove('hidden');
     })
     .catch((err) => {

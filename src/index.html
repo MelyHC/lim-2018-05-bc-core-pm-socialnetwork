@@ -17,7 +17,7 @@
              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <span class="itsFood navbar-brand">It's Food</span>
           <!-- <div id="menu"> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" id="btnHamburger" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -81,7 +81,11 @@
           <div class="p-3">
             <textarea name="Publicación" class="form-control" id="post" cols="" rows="" placeholder=""></textarea>
             <br>
-            <input type="button" class="btn btn-success" value="Publicar" id="btnSave">       
+            <input type="button" class="btn btn-success" value="Publicar" id="btnSave">   
+            <select id="typeStatus">
+              <option value="public">Público</option>
+              <option value="private">Privado</option>
+            </select>    
           </div>
         </div>
         <div id="publications" class="bg-green rounded mr-2 ml-2 mt-3">

@@ -15,9 +15,7 @@ const emailRegister = document.getElementById('email-register');
 const passwordRregister = document.getElementById('password-register');
 //botones de iniciar secion con google y facebook(aun si uso)
 const btnGoogle = document.getElementById('google-SignIn');
-const btnGoogleRegister = document.getElementById('google-register');
 // const btnFacebook = document.getElementById('facebook-SignIn');
-const btnFacebookRegister = document.getElementById('facebook-register');
 //botones de ocutar y aparecer (iniciar secion  registrarse)
 const btnNewAccount = document.getElementById('newAccount-register');
 const btnReturn = document.getElementById('return');
@@ -40,6 +38,15 @@ const dataBase = document.getElementById('dataBase');
 const btnSave = document.getElementById('btnSave');
 const post = document.getElementById('post');
 const posts = document.getElementById('publications');
+
+const navbar = document.querySelector('#navbarNavAltMarkup');
+const btnHamburger = document.querySelector('#btnHamburger');
+
+// const 
+
+navbar.addEventListener('click', () => {
+  if (window.innerWidth < '768') btnHamburger.click()
+})
 
 //ocultando y apareciondo el area de inciar sesion y registro
 btnNewAccount.addEventListener('click', () => {
@@ -71,8 +78,7 @@ const visualPaswordRE = document.getElementById('password-register-show');
 visualPaswordSI.addEventListener('click', () => {
   if (password.type === 'password') {
     password.type = 'text';
-  }
-  else {
+  } else {
     password.type = 'password';
   }
 });
@@ -80,8 +86,7 @@ visualPaswordSI.addEventListener('click', () => {
 visualPaswordRE.addEventListener('click', () => {
   if (passwordRregister.type === 'password') {
     passwordRregister.type = 'text';
-  }
-  else {
+  } else {
     passwordRregister.type = 'password';
   }
 })
