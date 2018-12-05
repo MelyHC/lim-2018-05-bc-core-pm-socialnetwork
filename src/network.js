@@ -26,7 +26,7 @@ const writeNewPost = (uid, body, status) => {
   updates[`/posts/${newPostKey}`] = postData;
   updates[`/user-posts/${uid}/${newPostKey}`] = postData;
   if (status === 'public') {
-    updates[`/user-posts/${newPostKey}`] = postData;
+    updates[`/user-posts-world/${newPostKey}`] = postData;
   }
   firebase.database().ref().update(updates);
   return newPostKey;

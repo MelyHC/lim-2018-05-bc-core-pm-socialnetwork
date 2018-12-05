@@ -28,7 +28,8 @@ window.onload = () => {
       register.classList.add('hidden');
       singIn.classList.remove('hidden');
       wall.classList.add('hidden');
-      console.log(postL.children.remove())
+      postL.innerHTML = '';
+      postWorld.innerHTML = '';
       title.classList.remove('hidden');
     }
   });
