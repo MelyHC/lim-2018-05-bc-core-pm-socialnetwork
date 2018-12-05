@@ -76,7 +76,7 @@ const showData = (userId, keyPost, post, likePost, dislikePost, nameUserId, stat
   const btnDelete = document.createElement('i');
   btnDelete.setAttribute('class', 'btn btn-danger mr-2 p-2 fas fa-trash');
   const btnpublic = document.createElement('SELECT');
-  btnpublic.setAttribute('class', 'form-control w-auto')
+  btnpublic.setAttribute('class', 'form-control w-auto mt-2 mt-sm-0')
   const onlyMe = document.createElement('option');
   onlyMe.setAttribute('value', 'private');
   const seeMe = document.createTextNode('Privado');
@@ -168,11 +168,11 @@ const showData = (userId, keyPost, post, likePost, dislikePost, nameUserId, stat
   divDelete.appendChild(btnUpdateSave);
   divDelete.appendChild(btnDelete);
   if (status === 'public') {
-    btnpublic.appendChild(onlyMe);
     btnpublic.appendChild(onlyWorld);
+    btnpublic.appendChild(onlyMe);
   } else {
-    btnpublic.appendChild(onlyWorld);
     btnpublic.appendChild(onlyMe);
+    btnpublic.appendChild(onlyWorld);
   }
   divDelete.appendChild(btnpublic);
   postL.appendChild(divDelete);

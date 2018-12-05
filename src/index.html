@@ -7,16 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <!-- <link rel="stylesheet" href="fonts.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="icon" href="./img/icon.png">
   </head>
   <body class="">
     <header class=""> 
       <h1 class="p-3 text-white text-center" id="title" >It's Food</h1>
         <nav id="menu" class="hidden fixed-top navbar navbar-expand-md navbar-dark">
-             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <span class="itsFood navbar-brand">It's Food</span>
-          <!-- <div id="menu"> -->
             <button class="navbar-toggler" type="button" id="btnHamburger" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,7 +25,6 @@
                 <a class="nav-item m-2 nav-link active" id="WORLD" href="#wall">Muro</a>
               </div>
               <input type="button" class="btn btn-danger" id="Logout" value="Salir">
-            <!-- </div> -->
           </div>
         </nav>
     </header> 
@@ -79,10 +76,9 @@
       <div class="mr-md-4 ml-md-4 pr-md-4 pl-md-4">
         <div id="dataBase" class="bg-light rounded mb-5 mr-2 ml-2">
           <div class="p-3">
-            <textarea name="Publicación" class="form-control" id="post" cols="" rows="" placeholder=""></textarea>
-            <br>
+            <textarea name="Publicación" class="form-control mb-1" id="post" cols="" rows="" placeholder=""></textarea>
             <input type="button" class="btn btn-success" value="Publicar" id="btnSave">   
-            <select id="typeStatus">
+            <select id="typeStatus" class="form-control w-auto ml-1">
               <option value="public">Público</option>
               <option value="private">Privado</option>
             </select>    
@@ -90,8 +86,8 @@
         </div>
         <div id="publications" class="bg-green rounded mr-2 ml-2 mt-3">
           <h3 class="pr-3 pt-3 pb-0 text-white mr-3 ml-3 mb-0">Publicaciones:</h3>
-          <div id="post-list" class="mr-3 ml-3 pt-3 pb-1"></div>
-          <div id="post-list-public" class="hidden mr-3 ml-3 pt-3 pb-3"></div>
+          <div id="post-list" class="mr-3 ml-3 pt-3 pb-1 hidden"></div>
+          <div id="post-list-public" class="mr-3 ml-3 pt-3 pb-3"></div>
         </div>
       </div>
     </section>

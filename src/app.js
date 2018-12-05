@@ -62,13 +62,11 @@ btnReturn.addEventListener('click', () => {
 visualOnlyMe.addEventListener('click', () => {
   postWorld.classList.add('hidden');
   postL.classList.remove('hidden');
-  dataBase.classList.remove('hidden');
 })
 
 visualWorld.addEventListener('click', () => {
   postL.classList.add('hidden')
   postWorld.classList.remove('hidden')
-  dataBase.classList.add('hidden')
 })
 
 //mostrando y ocultando contraseña

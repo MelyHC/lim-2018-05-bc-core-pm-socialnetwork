@@ -134,7 +134,7 @@ anonymus.addEventListener('click', () => {
 btnSave.addEventListener('click', () => {
   if (post.value.length !== 0 && post.value.trim() !== '') {
     const userId = firebase.auth().currentUser.uid;
-    writeNewPost(userId, post.value);
+    writeNewPost(userId, post.value, typeStatus.value);
     post.value = '';
   } else {
     alert('Escribe un comentario')
